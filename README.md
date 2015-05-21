@@ -3,26 +3,28 @@ Task
 We need to randomly generate a load of publication metadata, full text and images for indexing.
 
 Each publication generated should have its own directory (named after the publication identifier), 
-and contain two xml files: publication.xml & fulltext.xml. It should also contain a separate directory
-'images' which contains an image: <publication id>.tif.
+and contain two xml files: 'publication.xml' & 'fulltext.xml'. It should also contain a separate directory
+'images' which contains an image: 'publicationid.tif'.
 
-/<output directory>
-  /publication-1
-    publication.xml
-    fulltext.xml
-    /images
-      1.tif
-  /publication-2
-    publication.xml
-    fulltext.xml
-    /images
-      2.tif
-  /publication-3
-    publication.xml
-    fulltext.xml
-    /images
-      3.tif    
+* /output-directory
+  * /publication-1
+    * publication.xml
+    * fulltext.xml
+    * /images
+      * 1.tif
+  * /publication-2
+    * publication.xml
+    * fulltext.xml
+    * /images
+      * 2.tif
+  * /publication-3
+    * publication.xml
+    * fulltext.xml
+    * /images
+      * 3.tif    
+
 etc...
+
 Examples of each file type are provided here.
 
 Steps
